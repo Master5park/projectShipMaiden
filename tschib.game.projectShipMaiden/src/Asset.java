@@ -23,6 +23,7 @@ public abstract class Asset {
 	boolean fadeIn = false;
 	ArrayList<BufferedImage> animList;
 
+	
 	public void init() {// loads animations
 		animList = new ArrayList<BufferedImage>();
 		for (int i = 1; i < 17; i++) {
